@@ -22,5 +22,4 @@ public class Espresso extends Coffee {
     public int getPrice() {
         return ESPRESSO_PRICE;
     }
-
 }
