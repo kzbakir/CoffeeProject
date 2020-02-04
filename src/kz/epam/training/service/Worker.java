@@ -12,7 +12,7 @@ public class Worker {
     }
 
     public void sayGoodBuy(String name) {
-        System.out.println("Досвидание  " + name + "! Приходите еще!");
+        System.out.println("До свидания  " + name + "! Приходите еще!");
     }
 
 }
