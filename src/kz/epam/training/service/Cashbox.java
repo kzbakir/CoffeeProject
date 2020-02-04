@@ -7,7 +7,6 @@ import kz.epam.training.drinks.coffeetypes.Latte;
 import java.util.Scanner;
 
 public class Cashbox {
-    private int coffeeNumber;
     private Client elon = new Client();
     private Payment payment = new Payment();
     private Espresso espresso = new Espresso();
@@ -16,6 +15,7 @@ public class Cashbox {
     private Scanner scan = new Scanner(System.in);
 
     public void choice() {
+        int coffeeNumber;
         elon.setName("Elon");
         elon.setCash(600);
         System.out.print("Введите номер кофе из меню: ");
