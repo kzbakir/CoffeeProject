@@ -4,7 +4,6 @@ import kz.epam.training.customers.Client;
 import java.util.Scanner;
 
 public class Payment {
-
     private int result;
     private String tenge = "тг.";
     private Worker worker = new Worker();
