@@ -1,7 +1,7 @@
 package kz.epam.training.service;
 
-import kz.epam.training.drink.coffeetypes.Americano;
-import kz.epam.training.drink.coffeetypes.Espresso;
+import kz.epam.training.drink.coffeetype.Americano;
+import kz.epam.training.drink.coffeetype.Espresso;
 import java.util.Scanner;
 
 public class Worker {
