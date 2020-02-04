@@ -21,5 +21,4 @@ public class Americano extends Coffee {
     public int getPrice(){
         return AMERICANO_PRICE;
     }
-
 }
