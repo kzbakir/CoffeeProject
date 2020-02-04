@@ -1,4 +1,4 @@
-package kz.epam.training.drink.coffeetypes;
+package kz.epam.training.drink.coffeetype;
 
 import kz.epam.training.drink.Coffee;
 
