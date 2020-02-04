@@ -13,6 +13,9 @@ public class Cashbox {
     private Americano americano = new Americano();
     private Latte latte = new Latte();
     private Scanner scan = new Scanner(System.in);
+    private final int ESPRESSO_NUMBER = 1;
+    private final int AMERICANO_NUMBER = 2;
+    private final int LATTE_NUMBER = 3;
 
     public void choice() {
         int coffeeNumber;
@@ -21,15 +24,15 @@ public class Cashbox {
         System.out.print("Введите номер кофе из меню: ");
         coffeeNumber = scan.nextInt();
         switch (coffeeNumber) {
-            case 1:
+            case ESPRESSO_NUMBER:
                 espresso.makeCoffee();
                 payment.toPay(espresso.getPrice(), elon.getCash(), elon.getName());
                 break;
-            case 2:
+            case AMERICANO_NUMBER:
                 americano.makeCoffee();
                 payment.toPay(americano.getPrice(), elon.getCash(), elon.getName());
                 break;
-            case 3:
+            case LATTE_NUMBER:
                 latte.makeCoffee();
                 payment.toPay(latte.getPrice(), elon.getCash(), elon.getName());
                 break;
