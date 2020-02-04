@@ -11,5 +11,4 @@ public class Runner {
         worker.sayHello();
         cashbox.choice();
     }
-
 }
