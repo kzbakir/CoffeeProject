@@ -1,6 +1,6 @@
 package kz.epam.training.service;
 
-import kz.epam.training.customers.Client;
+import kz.epam.training.customer.Client;
 import java.util.Scanner;
 
 public class Payment {

@@ -1,9 +1,9 @@
 package kz.epam.training.service;
 
-import kz.epam.training.customers.Client;
-import kz.epam.training.drinks.coffeetypes.Americano;
-import kz.epam.training.drinks.coffeetypes.Espresso;
-import kz.epam.training.drinks.coffeetypes.Latte;
+import kz.epam.training.customer.Client;
+import kz.epam.training.drink.coffeetypes.Americano;
+import kz.epam.training.drink.coffeetypes.Espresso;
+import kz.epam.training.drink.coffeetypes.Latte;
 import java.util.Scanner;
 
 public class Cashbox {
@@ -25,14 +25,17 @@ public class Cashbox {
         coffeeNumber = scan.nextInt();
         switch (coffeeNumber) {
             case ESPRESSO_NUMBER:
+                espresso.getComposition();
                 espresso.makeCoffee();
                 payment.toPay(espresso.getPrice(), elon.getCash(), elon.getName());
                 break;
             case AMERICANO_NUMBER:
+                espresso.getComposition();
                 americano.makeCoffee();
                 payment.toPay(americano.getPrice(), elon.getCash(), elon.getName());
                 break;
             case LATTE_NUMBER:
+                espresso.getComposition();
                 latte.makeCoffee();
                 payment.toPay(latte.getPrice(), elon.getCash(), elon.getName());
                 break;
