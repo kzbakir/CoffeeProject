@@ -1,9 +1,9 @@
 package kz.epam.training.service;
 
 import kz.epam.training.customer.Client;
-import kz.epam.training.drink.coffeetypes.Americano;
-import kz.epam.training.drink.coffeetypes.Espresso;
-import kz.epam.training.drink.coffeetypes.Latte;
+import kz.epam.training.drink.coffeetype.Americano;
+import kz.epam.training.drink.coffeetype.Espresso;
+import kz.epam.training.drink.coffeetype.Latte;
 import java.util.Scanner;
 
 public class Cashbox {
