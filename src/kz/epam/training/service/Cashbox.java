@@ -4,7 +4,6 @@ import kz.epam.training.customers.Client;
 import kz.epam.training.drinks.coffeetypes.Americano;
 import kz.epam.training.drinks.coffeetypes.Espresso;
 import kz.epam.training.drinks.coffeetypes.Latte;
-
 import java.util.Scanner;
 
 public class Cashbox {
