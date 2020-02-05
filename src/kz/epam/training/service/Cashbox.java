@@ -23,7 +23,6 @@ public class Cashbox {
         elon.setCash(600);
         System.out.print("Введите номер кофе из меню: ");
         coffeeNumber = scan.nextInt();
-        scan.close();
         switch (coffeeNumber) {
             case ESPRESSO_NUMBER:
                 espresso.getComposition();
@@ -44,5 +43,6 @@ public class Cashbox {
                 System.out.println("Возможно, вы ввели некорректный номер , попробуйте еще раз!");
                 choice();
         }
+        scan.close();
     }
 }
